@@ -17,7 +17,7 @@ const AboutSection = () => (
           transition={{ duration: 0.8, ease }}
           className="relative"
         >
-          <div className="relative">
+          <div className="relative overflow-hidden rounded-lg">
             <img
               src={insideImg}
               alt="Sky Lounge interior"
