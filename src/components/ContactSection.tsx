@@ -53,7 +53,7 @@ const ContactSection = () => (
               Dhaka 1216, Bangladesh
             </p>
             <a
-              href="https://maps.google.com/?q=Sky+Lounge+Sony+Square+Mirpur+1+Dhaka"
+              href="https://www.google.com/maps/place/Sky+Lounge/@23.8004064,90.3550199,17z/data=!4m15!1m8!3m7!1s0x3755c14ee7ee4c7d:0x951008546ab611ab!2sSky+Lounge!8m2!3d23.8005449!4d90.355272!10e9!16s%2Fg%2F11spdtbjwn!3m5!1s0x3755c14ee7ee4c7d:0x951008546ab611ab!8m2!3d23.8005449!4d90.355272!16s%2Fg%2F11spdtbjwn"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-3 text-primary label-upper text-xs hover:underline"
