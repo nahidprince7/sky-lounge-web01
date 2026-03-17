@@ -17,18 +17,18 @@ const AboutSection = () => (
           transition={{ duration: 0.8, ease }}
           className="relative"
         >
-          <div className="relative overflow-hidden rounded-lg">
+          <div className="relative">
             <img
               src={insideImg}
               alt="Sky Lounge interior"
-              className="w-full rounded-lg object-cover aspect-[4/3] scale-110"
+              className="w-full rounded-lg object-cover aspect-[4/3]"
               loading="lazy"
             />
-            <div className="absolute -bottom-8 -right-4 md:right-8 w-48 md:w-64 overflow-hidden rounded-lg">
+            <div className="absolute -bottom-8 -right-4 md:right-8 w-48 md:w-64">
               <img
                 src={sittingImg}
                 alt="Rooftop seating"
-                className="rounded-lg object-cover aspect-square gold-border shadow-2xl scale-110"
+                className="rounded-lg object-cover aspect-square gold-border shadow-2xl"
                 loading="lazy"
               />
             </div>
