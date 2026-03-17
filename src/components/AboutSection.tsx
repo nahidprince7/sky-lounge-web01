@@ -28,7 +28,7 @@ const AboutSection = () => (
               <img
                 src={sittingImg}
                 alt="Rooftop seating"
-                className="rounded-lg object-cover aspect-square gold-border shadow-2xl"
+                className="rounded-lg object-cover aspect-square gold-border shadow-2xl scale-110"
                 loading="lazy"
               />
             </div>
