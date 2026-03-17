@@ -21,7 +21,7 @@ const AboutSection = () => (
             <img
               src={insideImg}
               alt="Sky Lounge interior"
-              className="w-full rounded-lg object-cover aspect-[4/3]"
+              className="w-full rounded-lg object-cover aspect-[4/3] scale-110"
               loading="lazy"
             />
             <div className="absolute -bottom-8 -right-4 md:right-8 w-48 md:w-64">
