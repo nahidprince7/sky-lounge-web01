@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const ContactSection = () => (
   <section id="contact" className="relative py-24 md:py-32 bg-secondary">

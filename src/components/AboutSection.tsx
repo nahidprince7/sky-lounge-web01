@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import insideImg from "@/assets/inside_view.jpg";
 import sittingImg from "@/assets/sittingareaoutside.jpg";
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const AboutSection = () => (
   <section id="about" className="relative py-24 md:py-32 overflow-hidden">

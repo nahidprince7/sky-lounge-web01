@@ -8,7 +8,7 @@ import img6 from "@/assets/food3.jpg";
 import img7 from "@/assets/birdseyeview2.jpg";
 import img8 from "@/assets/sittingareaoutside.jpg";
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const images = [
   { src: img1, alt: "Sky Lounge at night", span: "col-span-2 row-span-2" },

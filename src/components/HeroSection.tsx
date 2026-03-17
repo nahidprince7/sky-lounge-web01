@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import heroImg from "@/assets/birdseyeview.jpg";
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const HeroSection = () => (
   <section className="relative min-h-svh flex items-center justify-center overflow-hidden">
